@@ -1,0 +1,54 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.bgContainer {
+  min-height: 100vh;
+  background-color: #93c5fd;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.cardContainer {
+  margin: 5px;
+  border-radius: 15px;
+  padding: 10px;
+  width: 100%;
+  background-color: #f8fafc;
+}
+@media all and (min-width: 768px) {
+  .cardContainer {
+    width: 60%;
+    padding: 30px;
+  }
+}
+.countryheading {
+  font-family: 'Roboto';
+  font-size: 26px;
+  color: #1e293b;
+}
+.para {
+  font-family: 'Roboto';
+  font-size: '16px';
+}
+
+@media all and (min-width: 768px) {
+  .countryheading {
+    font-size: 36px;
+  }
+  .para {
+    font-size: 23px;
+  }
+}
+.selectConatiner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.para {
+  padding-left: 5px;
+}
